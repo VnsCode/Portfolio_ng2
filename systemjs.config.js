@@ -11,8 +11,8 @@
     // map tells the System loader where to look for things
     map: {
       // our app is within the app folder
-      app: 'app',
-      // angular bundles
+       app: 'dist', // Changing from app: 'app' to app: 'dist' to have .ts and .js files in different folders
+       // angular bundles
       '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
       '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
       '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
